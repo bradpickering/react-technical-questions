@@ -4,11 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import PlaceCircle from "./problems/PlaceCircle";
-
+import MemoryGame from "./problems/MemoryGame";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PlaceCircle />
+    <MemoryGame />
   </React.StrictMode>
 );
 

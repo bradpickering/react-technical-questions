@@ -32,8 +32,8 @@ export default function PlaceCircle() {
 
     const redo = currentUndoneStack.pop()
     if (redo === undefined) return
-    
     currentCircles.push(redo)
+
     setCircleStack(currentCircles)
     setUndoneStack(currentUndoneStack)
   };
